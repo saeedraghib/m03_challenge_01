@@ -23,7 +23,7 @@ The two dataframes "bitstamp" & "coinbase", containing the file data were then f
 <br>
 
 ## **Phase 3: Analyze the Data**<br>
-Put Description here ...
+Phase 3 completed to step4.6
 <br>
 
 ---
