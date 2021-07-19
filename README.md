@@ -15,7 +15,11 @@ The two files "bitstamp.csv" and "coinbase.csv" were read in to two separate dat
 The two dataframes "bitstamp" & "coinbase", containing the file data were then further cleaned and prepared for analysis as follows:
 1. *Null Values* were removed, since they were not more than 0.13%.
 2. *'$'* was removed from the column labeled 'Close'.
+    *   *used an 'if' clause to check column type before using a a 'string' function*
+        * *This eliminates the error that might arise if a 'string function' is called on a data-type that is not string*
 3. *type* of the column (which was 'object' / string), was changed to float.
+    *   *used an 'if' clause to check column type before changing the type to 'float'*
+        * *This eliminates the error that might arise if you try to change the type of data column that is already the correct type.*
 <br>
 
 ## **Phase 3: Analyze the Data**<br>
